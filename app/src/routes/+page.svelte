@@ -4,7 +4,6 @@
 </script>
 
 <Text 
-  tag='h2'>
-  <span>Yo Valentin</span>
-  <span class="primary--color">C'est Chloé</span>
+  tag='h2' style='title'>
+  Yo Valentin
 </Text>

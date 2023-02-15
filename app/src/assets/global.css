@@ -110,7 +110,7 @@ body{
 \*------------------------------------*/
 
 .title{
-  font-size: var(--font-size-regular);
+  font-size: var(--font-size-heading);
   font-weight: var(--font-weight-bold);
 }
 
