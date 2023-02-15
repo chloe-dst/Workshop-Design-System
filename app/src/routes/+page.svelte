@@ -1,6 +1,6 @@
 <script>
-    import Text from "../../components/UI/atoms/Text.svelte";
-    import '../../assets/global.css';
+    import Text from '../components/UI/atoms/Text.svelte';
+    import '../assets/global.css';
 </script>
 
 <Text 
