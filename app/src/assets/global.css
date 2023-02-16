@@ -47,6 +47,12 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
 
 
 
@@ -65,6 +71,7 @@ table {
   --black: #101726;
 
   --color-text-dark: var(--black);
+  --color-text-medium: var(--grey);
   --color-text-light: var(--white);
   --color-background: var(--white);
   --color-primary: var(--blue);
