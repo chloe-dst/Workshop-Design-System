@@ -5,13 +5,13 @@
 
 <style>
   .button{
+    font-family: var(--font-family-primary);
     background-color: var(--color-primary);
     color: var(--color-text-light);
     border: var(--border-height-thick) solid var(--color-primary);
     border-radius: var(--border-radius);
     padding: 16px;
     min-width: 380px;
-    font-family: var(--font-family-primary);
   }
 
   .button:hover{
