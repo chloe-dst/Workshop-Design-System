@@ -3,10 +3,13 @@
    * @type {string}
    */
      export let tag = 'p';
-     export let color = 'primary--color';
-     export let style = 'body--1';
+     export let color = 'var(--color-primary)';
+     export let style = 'text-body';
 </script>
 
 <svelte:element this={tag}
-  class={color, style} 
+  style:color={color}
+  class={style} 
 ><slot/></svelte:element>
+
+

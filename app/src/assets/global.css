@@ -1,22 +1,120 @@
 /*------------------------------------*\
-  #COLORS
+  #RESET CSS
 \*------------------------------------*/
-.primary--color{
-  color: red;
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
 }
 
-.secondary--color{
-  color: green;
+
+
+
+
+/*------------------------------------*\
+  #GLOBAL VARIABLES
+\*------------------------------------*/
+:root{
+  /* COLORS */
+  --blue: #0596a7;
+  --darker-blue: #007381;
+  --lighter-blue: #82BDC3;
+  --grey: #BDBDBD;
+  --white: #F9FAFF;
+  --black: #101726;
+
+  --color-text-dark: var(--black);
+  --color-text-light: var(--white);
+  --color-background: var(--white);
+  --color-primary: var(--blue);
+  --color-secondary: var(--lighter_blue);
+  --color-highlight: var(--darker_blue);
+  --color-disabled: var(--grey);
+
+  /* FONTS */
+  --font-family-primary: 'Montserrat';
+  
+  --font-weight-regular: 400;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+
+  --font-size-regular: 16px;
+  --font-size-heading: 36px;
+  
+  /* BORDERS */
+  --border-radius: 24px;
+
+  --border-height-regular: 1px;
+  --border-height-thick: 3px;
+  
 }
+
+
+
+
+
+/*------------------------------------*\
+  #LAYOUT
+\*------------------------------------*/
+
+body{
+  font-family: var(--font-family-primary);
+  font-size: var(--font-size-regular);
+}
+
+
+
+
 
 /*------------------------------------*\
   #STYLES
 \*------------------------------------*/
 
-.heading--1{
-  font-size: 24px;
+.title{
+  font-size: var(--font-size-heading);
+  font-weight: var(--font-weight-bold);
 }
 
-.body--1{
-  font-size: 14px;
+.text-semibold{
+  font-weight: var(--font-weight-semibold);
 }
+
