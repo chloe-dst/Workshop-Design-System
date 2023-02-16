@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
+
 /*------------------------------------*\
   #RESET CSS
 \*------------------------------------*/
@@ -73,8 +75,8 @@ button:focus {
   --color-text-light: var(--white);
   --color-background: var(--white);
   --color-primary: var(--blue);
-  --color-secondary: var(--lighter_blue);
-  --color-highlight: var(--darker_blue);
+  --color-secondary: var(--lighter-blue);
+  --color-highlight: var(--darker-blue);
   --color-disabled: var(--grey);
 
   /* FONTS */
