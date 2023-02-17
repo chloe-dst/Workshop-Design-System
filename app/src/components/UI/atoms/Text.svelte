@@ -1,15 +1,17 @@
 <script>
-    /**
+  /**
    * @type {string}
-   */
-     export let tag = 'p';
-     export let color = 'var(--color-primary)';
-     export let style = 'text-body';
+  */
+  export let textTag = 'p';
+  export let textColor = 'var(--color-text-dark)';
+  export let textStyle = 'text-body';
 </script>
 
-<svelte:element this={tag}
-  style:color={color}
-  class={style} 
-><slot/></svelte:element>
+<svelte:element this={textTag}
+  style:color={textColor}
+  class={textStyle} 
+>
+  <slot/>
+</svelte:element>
 
 
