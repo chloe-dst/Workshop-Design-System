@@ -3,12 +3,12 @@
   /**
    * @type {string}
   */
-  export let link = '#';
-  export let color = 'var(--color-text-dark)';
+  export let linkUrl = '#';
+  export let linkColor = 'var(--color-text-dark)';
 </script>
 
-<a href="{link}"
-  class="link" style:color={color}>          
+<a href="{linkUrl}"
+  class="link" style:color={linkColor}>          
     <slot/>
 </a>
 
